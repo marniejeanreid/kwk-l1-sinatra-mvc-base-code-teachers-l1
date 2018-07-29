@@ -4,8 +4,7 @@ Bundler.require
 class MyApp < Sinatra::Base
 
   get '/' do
-    "Hello, World!"
-    # erb :index
+    erb :index
   end
 
 end
